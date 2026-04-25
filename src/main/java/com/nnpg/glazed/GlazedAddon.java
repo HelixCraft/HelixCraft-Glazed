@@ -56,6 +56,7 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new LamaESP());
         Modules.get().add(new PillagerESP());
         Modules.get().add(new HoleTunnelStairsESP());
+        Modules.get().add(new ItemESP());
         Modules.get().add(new CoveredHole());
         Modules.get().add(new ClusterFinder());
         Modules.get().add(new EmergencySeller());
@@ -81,6 +82,7 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new TpaAllMacro());
         Modules.get().add(new RTPNetherBaseFinder());
         Modules.get().add(new HomeReset());
+        Modules.get().add(new LayerLock());
         Modules.get().add(new KeyPearl());
         Modules.get().add(new DrownedTridentESP());
         Modules.get().add(new RTPBaseFinder());
@@ -105,6 +107,7 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new AutoTreeFarmer());
         Modules.get().add(new CrystalTweaks());
         Modules.get().add(new CrystalDeathLock());
+        Modules.get().add(new FastXP());
         Modules.get().add(new PearlLandingPredictor());
         Modules.get().add(new STabSprintReset());
         Modules.get().add(new TriggerBot());
