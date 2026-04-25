@@ -36,6 +36,7 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new ShulkerDropper());
         Modules.get().add(new AutoSell());
         Modules.get().add(new SpawnerDropper());
+        Modules.get().add(new AutoShulkerOrder());
         Modules.get().add(new AutoOrder());
         Modules.get().add(new AutoShopOrder());
         Modules.get().add(new HideScoreboard());
@@ -59,6 +60,7 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new ItemESP());
         Modules.get().add(new CoveredHole());
         Modules.get().add(new ClusterFinder());
+        Modules.get().add(new AutoShulkerShellOrder());
         Modules.get().add(new EmergencySeller());
         Modules.get().add(new RTPEndBaseFinder());
         Modules.get().add(new ShopBuyer());
@@ -92,6 +94,7 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new SkeletonESP());
         Modules.get().add(new RainNoti());
         Modules.get().add(new AutoPearlChain());
+        Modules.get().add(new AutoBlazeRodOrder());
         Modules.get().add(new BlazeRodDropper());
         Modules.get().add(new BreachSwap());
         Modules.get().add(new FakeScoreboard());
@@ -101,6 +104,7 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new UIHelper());
         Modules.get().add(new ShieldBreaker());
         Modules.get().add(new InvisESP());
+        Modules.get().add(new AutoTotemOrder());
         Modules.get().add(new LightESP());
         Modules.get().add(new PremiumTunnelBaseFinder());
         Modules.get().add(new AdminList());
@@ -111,6 +115,7 @@ public class GlazedAddon extends MeteorAddon {
         Modules.get().add(new PearlLandingPredictor());
         Modules.get().add(new STabSprintReset());
         Modules.get().add(new TriggerBot());
+        Modules.get().add(new AutoDelivere());
 
         // Commands
         Commands.add(new SellHotbarCommand());
